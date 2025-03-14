@@ -1,0 +1,53 @@
+﻿<Window x:Class="CalculadoraSistemasNumericos.Operaciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculadoraSistemasNumericos"
+        mc:Ignorable="d"
+        Title="Operaciones" Height="463" Width="800">
+    <Grid Background="#FFC5ECBB">
+        <Label x:Name="label" Content="OPERACIONES DE SISTEMAS NUMERICOS" HorizontalAlignment="Center" Height="30" Margin="0,10,0,0" VerticalAlignment="Top" Width="372" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18"/>
+        <GroupBox x:Name="groupBox" HorizontalAlignment="Center" Height="74" Header="PRIMER VALOR" Margin="0,52,0,0" VerticalAlignment="Top" Width="780" FontWeight="Bold">
+            <Grid HorizontalAlignment="Left" Height="52" VerticalAlignment="Center" Width="770">
+                <TextBox x:Name="txtPrimerValor" HorizontalAlignment="Left" Height="29" Margin="107,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209"/>
+                <Label x:Name="label1" Content="Número #1:" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold"/>
+                <Label x:Name="label2" Content="Sistema:" HorizontalAlignment="Left" Height="28" Margin="329,10,0,0" VerticalAlignment="Top" Width="65" FontWeight="Bold"/>
+                <RadioButton x:Name="rbtDecimalPV" Content="DECIMAL" HorizontalAlignment="Left" Height="20" Margin="399,14,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.57,0.672" FontWeight="Normal" IsChecked="True"/>
+                <RadioButton x:Name="rbtBinarioPV" Content="BINARIO" HorizontalAlignment="Left" Height="20" Margin="484,14,0,0" VerticalAlignment="Top" Width="72" FontWeight="Normal"/>
+                <RadioButton x:Name="rbtOctalPV" Content="OCTAL" HorizontalAlignment="Left" Height="20" Margin="561,14,0,0" VerticalAlignment="Top" Width="63" FontWeight="Normal"/>
+                <RadioButton x:Name="rbtHexadecimalPV" Content="HEXADECIMAL" HorizontalAlignment="Left" Height="20" Margin="629,14,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.529,1.088" FontWeight="Normal"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupBox_Copy" HorizontalAlignment="Center" Height="74" Header="SEGUNDO VALOR" Margin="0,131,0,0" VerticalAlignment="Top" Width="780" FontWeight="Bold">
+            <Grid HorizontalAlignment="Left" Height="52" VerticalAlignment="Center" Width="770">
+                <TextBox x:Name="txtSegundoValor" HorizontalAlignment="Left" Height="29" Margin="107,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209"/>
+                <Label x:Name="label3" Content="Número #2:" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold"/>
+                <Label x:Name="label4" Content="Sistema:" HorizontalAlignment="Left" Height="28" Margin="329,10,0,0" VerticalAlignment="Top" Width="65" FontWeight="Bold"/>
+                <RadioButton x:Name="rbtDecimalSV" Content="DECIMAL" HorizontalAlignment="Left" Height="20" Margin="399,14,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.57,0.672" FontWeight="Normal" IsChecked="True"/>
+                <RadioButton x:Name="rbtBinarioSV" Content="BINARIO" HorizontalAlignment="Left" Height="20" Margin="484,14,0,0" VerticalAlignment="Top" Width="72" FontWeight="Normal"/>
+                <RadioButton x:Name="rbtOctalSV" Content="OCTAL" HorizontalAlignment="Left" Height="20" Margin="561,14,0,0" VerticalAlignment="Top" Width="63" FontWeight="Normal"/>
+                <RadioButton x:Name="rbtHexadecimalSV" Content="HEXADECIMAL" HorizontalAlignment="Left" Height="20" Margin="629,14,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.529,1.088" FontWeight="Normal"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1" HorizontalAlignment="Left" Height="215" Header="RESULTADOS" Margin="400,217,0,0" VerticalAlignment="Top" Width="390" FontWeight="Bold" Background="#FF10CA1C">
+            <Grid HorizontalAlignment="Left" Height="186" VerticalAlignment="Top" Width="368">
+                <Label x:Name="label5" Content="BINARIO:" HorizontalAlignment="Left" Height="28" Margin="15,16,0,0" VerticalAlignment="Top" Width="94" FontWeight="Bold" Foreground="#FF1232E4"/>
+                <Label x:Name="label5_Copy" Content="DECIMAL:" HorizontalAlignment="Left" Height="28" Margin="15,57,0,0" VerticalAlignment="Top" Width="94" FontWeight="Bold" Foreground="#FF1232E4"/>
+                <Label x:Name="label5_Copy1" Content="OCTAL:" HorizontalAlignment="Left" Height="28" Margin="15,102,0,0" VerticalAlignment="Top" Width="94" FontWeight="Bold" Foreground="#FF1232E4"/>
+                <Label x:Name="label5_Copy2" Content="HEXADECIMAL:" HorizontalAlignment="Left" Height="28" Margin="15,148,0,0" VerticalAlignment="Top" Width="94" FontWeight="Bold" Foreground="#FF1232E4"/>
+                <Label x:Name="lblResultadoBinario" Content="---" HorizontalAlignment="Left" Height="28" Margin="115,16,0,0" VerticalAlignment="Top" Width="243" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFBD1111" Foreground="#FFF7F7F7"/>
+                <Label x:Name="lblResultadoDecimal" Content="---" HorizontalAlignment="Left" Height="28" Margin="115,57,0,0" VerticalAlignment="Top" Width="243" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFBD1111" Foreground="#FFF7F7F7"/>
+                <Label x:Name="lblResultadoOctal" Content="---" HorizontalAlignment="Left" Height="28" Margin="115,102,0,0" VerticalAlignment="Top" Width="243" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFBD1111" Foreground="#FFF7F7F7"/>
+                <Label x:Name="lblResultadoHexadecimal" Content="---" HorizontalAlignment="Left" Height="28" Margin="115,148,0,0" VerticalAlignment="Top" Width="243" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFBD1111" Foreground="#FFF7F7F7"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupBox2" HorizontalAlignment="Left" Height="215" Header="OPERACIONES" Margin="10,217,0,0" VerticalAlignment="Top" Width="368" FontWeight="Bold">
+            <Grid HorizontalAlignment="Left" Height="195" VerticalAlignment="Top" Width="358">
+                <Button x:Name="btnSumar" Content="SUMAR" HorizontalAlignment="Center" Height="46" Margin="0,36,0,0" VerticalAlignment="Top" Width="302" FontWeight="Bold" FontSize="16" Background="#FF82A0FB" Click="btnSumar_Click"/>
+                <Button x:Name="btnRestar" Content="RESTAR" HorizontalAlignment="Center" Height="46" Margin="0,111,0,0" VerticalAlignment="Top" Width="302" FontWeight="Bold" FontSize="16" Background="#FF82A0FB" Click="btnRestar_Click"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>

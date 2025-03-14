@@ -1,0 +1,33 @@
+﻿<Window x:Class="CalculadoraSistemasNumericos.Conversiones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculadoraSistemasNumericos"
+        mc:Ignorable="d"
+        Title="Conversiones" Height="450" Width="655">
+    <Grid Background="#FFC5ECBB">
+        <Label x:Name="label" Content="CONVERSOR DE SISTEMAS NUMERICOS" HorizontalAlignment="Left" Height="30" Margin="137,25,0,0" VerticalAlignment="Top" Width="372" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1" Content="Ingrese el valor:" HorizontalAlignment="Left" Height="29" Margin="31,88,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold"/>
+        <TextBox x:Name="txtValor" HorizontalAlignment="Left" Height="29" Margin="163,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326"/>
+        <Button x:Name="btnConvertir" Content="CONVERTIR" HorizontalAlignment="Left" Height="29" Margin="497,88,0,0" VerticalAlignment="Top" Width="118" Background="#FF82A0FB" FontWeight="Bold" Click="btnConvertir_Click"/>
+        <GroupBox x:Name="groupBox" HorizontalAlignment="Left" Height="187" Header="ORIGEN" Margin="31,143,0,0" VerticalAlignment="Top" Width="274">
+            <Grid HorizontalAlignment="Left" Height="167" VerticalAlignment="Top" Width="280">
+                <RadioButton x:Name="rbtDecimal_In" Content="DECIMAL" HorizontalAlignment="Left" Height="21" Margin="61,20,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center" IsChecked="True"/>
+                <RadioButton x:Name="rbtBinario_In" Content="BINARIO" HorizontalAlignment="Left" Height="22" Margin="61,60,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center"/>
+                <RadioButton x:Name="rbtOctal_In" Content="OCTAL" HorizontalAlignment="Left" Height="21" Margin="61,95,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center"/>
+                <RadioButton x:Name="rbtHexadecimal_In" Content="HEXADECIMAL" HorizontalAlignment="Left" Height="21" Margin="61,134,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupBox_Copy" HorizontalAlignment="Left" Height="187" Header="DESTINO" Margin="345,143,0,0" VerticalAlignment="Top" Width="270">
+            <Grid HorizontalAlignment="Left" Height="164" VerticalAlignment="Center" Width="280">
+                <RadioButton x:Name="rbtDecimal_Out" Content="DECIMAL" HorizontalAlignment="Center" Height="21" Margin="0,17,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center" IsChecked="True"/>
+                <RadioButton x:Name="rbtBinario_Out" Content="BINARIO" HorizontalAlignment="Center" Height="22" Margin="0,51,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center"/>
+                <RadioButton x:Name="rbtOctal_Out" Content="OCTAL" HorizontalAlignment="Center" Height="21" Margin="0,86,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center"/>
+                <RadioButton x:Name="rbtHexadecimal_Out" Content="HEXADECIMAL" HorizontalAlignment="Center" Height="21" Margin="0,125,0,0" VerticalAlignment="Top" Width="128" VerticalContentAlignment="Center"/>
+            </Grid>
+        </GroupBox>
+        <Label x:Name="lblResultado" Content="---" HorizontalAlignment="Left" Height="39" Margin="31,356,0,0" VerticalAlignment="Top" Width="584" HorizontalContentAlignment="Center" Background="#FFCE1919" Foreground="#FFFBFBFB" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="16"/>
+
+    </Grid>
+</Window>
