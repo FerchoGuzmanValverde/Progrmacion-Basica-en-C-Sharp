@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\Buscador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6D1FF52-37F2-44D0-B1F6-F4710AD09714}|Buscador.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\buscador\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6D1FF52-37F2-44D0-B1F6-F4710AD09714}|Buscador.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6D1FF52-37F2-44D0-B1F6-F4710AD09714}|Buscador.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\buscador\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6D1FF52-37F2-44D0-B1F6-F4710AD09714}|Buscador.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D1FF52-37F2-44D0-B1F6-F4710AD09714}|Buscador.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\buscador\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D1FF52-37F2-44D0-B1F6-F4710AD09714}|Buscador.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D1FF52-37F2-44D0-B1F6-F4710AD09714}|Buscador.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\buscador\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Persona.cs",
               "DocumentMoniker": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\Buscador\\Persona.cs",
               "RelativeDocumentMoniker": "Persona.cs",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\Buscador\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\Buscador\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAzwEUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswEUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T14:54:34.608Z",
               "EditorCaption": ""

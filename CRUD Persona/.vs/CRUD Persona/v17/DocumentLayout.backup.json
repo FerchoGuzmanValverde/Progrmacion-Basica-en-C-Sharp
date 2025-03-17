@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\crud persona\\personawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|solutionrelative:personawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\crud persona\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\crud persona\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\crud persona\\personawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|solutionrelative:personawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|e:\\github\\progrmacion-basica-en-c-sharp\\crud persona\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EDCCF2E-4EC3-4283-94D8-D98BBE3E63C4}|CRUD Persona.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 297,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\Persona.cs",
+              "RelativeDocumentMoniker": "Persona.cs",
+              "ToolTip": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\Persona.cs",
+              "RelativeToolTip": "Persona.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T19:12:22.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonaWindow.xaml",
+              "DocumentMoniker": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\PersonaWindow.xaml",
+              "RelativeDocumentMoniker": "PersonaWindow.xaml",
+              "ToolTip": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\PersonaWindow.xaml",
+              "RelativeToolTip": "PersonaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T17:18:59.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonaWindow.xaml.cs",
+              "DocumentMoniker": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\PersonaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PersonaWindow.xaml.cs",
+              "ToolTip": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\PersonaWindow.xaml.cs*",
+              "RelativeToolTip": "PersonaWindow.xaml.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:25:55.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T16:52:06.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\GITHUB\\Progrmacion-Basica-en-C-Sharp\\CRUD Persona\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T16:52:07.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
